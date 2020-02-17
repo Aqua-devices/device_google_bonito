@@ -20,8 +20,8 @@
    "branch":      "x"
  },
  {
-   "repository":  "gitlab.com/DirtyUnicorns/android_vendor_images",
+   "repository":  "gitlab.com/AquariOS/vendor_images",
    "target_path": "vendor/images",
-   "branch":      "q10x"
+   "branch":      "x"
  }
 ]
