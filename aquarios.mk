@@ -40,7 +40,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 BOARD_PREBUILT_VENDORIMAGE := vendor/images/bonito/vendor.img
 
-$(call inherit-product-if-exists, vendor/google/bonito/bonito-vendor.mk)
+$(call inherit-product, vendor/google/bonito/bonito-vendor.mk)
 $(call inherit-product, vendor/pixelgapps/pixel-gapps.mk)
 
 # Include a check for required repos - error out if not present
